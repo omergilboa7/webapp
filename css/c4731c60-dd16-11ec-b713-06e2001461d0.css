@@ -1,0 +1,33 @@
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("1.css");
+  
+@font-face {
+  font-family: "NeuePlakRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/NeuePlakRegular_normal_normal.woff2') format('woff2'), url('../fonts/NeuePlakRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "NeuePlakWideExtraBlack";
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+  src: url('../fonts/NeuePlakWideExtraBlack_normal_expanded.woff2') format('woff2'), url('../fonts/NeuePlakWideExtraBlack_normal_expanded.woff') format('woff');
+}
+@font-face {
+  font-family: "NeuePlakBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/NeuePlakBold_normal_normal.woff2') format('woff2'), url('../fonts/NeuePlakBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "NeuePlakSemiBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/NeuePlakSemiBold_normal_normal.woff2') format('woff2'), url('../fonts/NeuePlakSemiBold_normal_normal.woff') format('woff');
+}
